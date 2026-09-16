@@ -1,3 +1,4 @@
+![itgam banner](/rsource/WhatsApp%20Image%202026-09-15%20at%2011.16.54%20PM.jpeg)
 # eyodd_2026B
 
 Repositorio de la materia "Estructura y Organización de Datos", semestre 2026B.
