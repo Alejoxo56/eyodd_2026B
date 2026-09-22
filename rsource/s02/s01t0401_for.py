@@ -1,31 +1,31 @@
 """
-escrbir un programa que calcule 
-la suma de los "n" numeros naturales.
-por elemplo si n= 100, el progama 
-calculara la suma de 1 al 100
-42
+Escribir un programa que calcule la suma de los "n" numeros naturales. Por ejemplo si n= 100, el programa calculara la suya del 1 al 100
 
 """
-# importamos bliblioteca time
+# Importamos  biblioteca 
 import time
-
-# Crear una marca de tiempo
+#Tomando el tiempo incial
+# Creando una marca de tiempo 
 timestamp_01 = time.time()
-# progama que calcule las sumas 
-# de los "n" numeros naturales 
-n= 100
+
+# Programa que calcula las suma # de los "n" numeros naturales 
+n = 100
 sum = 0
 
-#ciclo for
-for number in range(1,n+1):
-    sum = sum + number 
-    # l: sum <- 0 + 1
-    # sum = 1
-    # 2: sum <- 1 + 2 
-    # sum = 3 
-    # 3: sum <- 3 +3 
-    # ...
-    # 100: SUM : <- sum_(-1) + 100
-    print(f"la sunma de 1 hasta {n} es: {sum}")
+# Ciclo for
+for number in range (1,n+1):
+   sum = sum + number
+   # 1: sum <-0 + 1
+   # sum = 1
+   # 2: sum <- 1 + 2
+   # sum = 3 
+   #3: sum <- 3 + 3
+   # ...
+   # 100: sum <- anterior a Sum(o se pone sum_(-1)) + 100 
+print(f"La suma de 1 hasta {n} es: {sum}")
 
-    times
+# Tomando el tiempo final 
+timestamp_02 = time.time()
+
+# Impresion del tiempo de ejecución 
+print(f"Tiempo de ejecución: {(timestamp_02 - timestamp_01) * 1e6:.2f} μs")
